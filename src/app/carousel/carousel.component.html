@@ -1,0 +1,70 @@
+<!-- 
+
+  <div class="carousel">
+  <owl-carousel-o [options]="customOptions">
+    
+
+    <ng-template carouselSlide>  
+      <div class="slide-container">
+       <img  style="height: 450px;" src="../../assets/carousel/icons/feedback-01.jpg">
+       <div class="caption">{{ captions[0] }}</div>
+       <div class="book-appointment">
+        <h3>Book Appointment</h3>
+        <p>Call us at 123-456-7890</p>
+      </div>
+
+       </div>
+      </ng-template> 
+
+    <ng-template carouselSlide> 
+      <div class="slide-container">
+      <img  style="height: 450px;" src="../../assets/carousel/icons/banner2.jpg">
+      <div class="caption">{{ captions[1] }}</div>
+      </div>
+    </ng-template> 
+
+    <ng-template carouselSlide>  
+      <div class="slide-container">
+      <img  style="height: 450px;" src="../../assets/carousel/icons/banner3.jpg">
+      <div class="caption">{{ captions[2] }}</div>
+      </div>
+    </ng-template> 
+
+    <ng-template carouselSlide>
+      <div class="slide-container">
+      <img style="height: 450px;" src="../../assets/carousel/icons/banner4.jpg">
+      <div class="caption">{{ captions[3] }}</div>
+      </div>
+    </ng-template> 
+
+    <ng-template carouselSlide>
+      <div class="slide-container">
+      <img style="height: 450px;" src="../../assets/carousel/icons/banner1.jpg">
+      <div class="caption">{{ captions[4] }}</div>
+      </div>
+    </ng-template> 
+
+
+  </owl-carousel-o>
+  </div> -->
+
+  <div class="carousel">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let slide of slides; let i = index">
+
+        <div class="slide-container">
+        <img style="height: 450px;" [src]="slide.image" alt="Carousel Slide">
+        <div class="caption">{{ slide.caption }}</div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+
+    <!-- <div class="book-appointment">
+      <h2>Book Appointment</h2>
+      <h3>Call us at 123-456-7890</h3>
+      <h3>Missed call  123-456-7890</h3>
+      <h3>Send a message to 123-456-7890</h3>
+      <h3>WhatsApp us to 123-456-7890</h3>
+    </div> -->
+
+  </div>

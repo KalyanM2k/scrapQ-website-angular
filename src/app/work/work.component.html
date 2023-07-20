@@ -1,0 +1,14 @@
+
+<div class="heading">HOW IT WORKS</div>
+
+<div class="image-row">
+    <div class="image-container" *ngFor="let image of images">
+      <img class="image" src="{{ image.url }}" alt="{{ image.alt }}"  />
+      
+      <div class="caption">{{ image.caption }}</div>
+      <div class="caption2">{{ image.caption2 }}</div>
+      <div class="image-overlay" ></div>
+    </div>
+  </div>
+
+ 

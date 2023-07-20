@@ -1,0 +1,16 @@
+<div class="heading">Recyclables</div>
+<div class="carousel-container">
+    <div class="carousel-arrow left" (click)="slide(-1)">
+      <i class="material-icons">chevron_left</i>
+    </div>
+    
+    <div class="carousel-images">
+      <div class="image-container" *ngFor="let icon of displayedIcons; let i = index" (click)="showData(i)">
+        <img class="image" src="{{ icon.url }}" alt="{{ icon.alt }}" />
+      </div>
+    </div>
+    
+    <div class="carousel-arrow right" (click)="slide(1)">
+      <i class="material-icons">chevron_right</i>
+    </div>
+  </div>

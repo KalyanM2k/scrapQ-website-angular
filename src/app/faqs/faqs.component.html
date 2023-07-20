@@ -1,0 +1,42 @@
+<!-- 
+
+<h2 class="title">FAQ's</h2>
+
+<div class="container">
+    <div class="accordion-item" *ngFor="let item of faqs;">
+      <div class="accordion-item-header" (click)="toggleAccordion(item)">
+        <span>{{ item.question }}</span>
+        <span class="accordion-item-description">
+          <mat-icon *ngIf="!item.expanded">add</mat-icon>
+          <mat-icon *ngIf="item.expanded">remove</mat-icon>
+        </span>
+      </div>
+      <div class="accordion-item-body" [style.display]="item.expanded ? '' : 'none'">
+        <div [innerHTML]="item.answer"></div>
+      </div>
+    </div>
+  
+</div> -->
+
+
+
+
+
+
+
+<!-- <details>
+  <summary>Click to show/hide details</summary>
+  <p>Additional details or content go here.</p>
+</details> -->
+
+<div class="container" *ngFor="let item of faqs">
+  
+  
+    <details>
+      <summary>{{ item.question }}</summary>
+      <div class="data" [innerHTML]="item.answer"></div>
+    </details>
+   
+</div>
+
+<button class="click"  (click)="downloadData()" >Download</button>

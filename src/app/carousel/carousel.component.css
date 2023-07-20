@@ -1,0 +1,48 @@
+/* .carousel{
+  background-image: url(../../assets/carousel/icons/banner-mb-07.jpg);
+} */
+
+
+.carousel{
+  width:100%;
+position: relative;
+}
+
+
+.slide-container {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* 
+.book-appointment {
+  position: fixed;
+  top: 200px;
+  right: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.book-appointment h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.book-appointment h3 {
+  margin: 0;
+  font-size: 14px;
+}
+ */
+
+

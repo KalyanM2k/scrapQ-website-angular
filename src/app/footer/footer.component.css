@@ -1,0 +1,45 @@
+
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 29%;
+    
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  
+  
+  p{
+    margin-top: 0px;
+    color: white;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: rgb(178, 177, 177);
+    margin-top: 0px;
+  }
+  
+  .link-active {
+    cursor: pointer;
+    color: white;
+    font-size: large;
+  }
+  
+  .link-active:hover {
+    color: #288f5b;
+    
+  }

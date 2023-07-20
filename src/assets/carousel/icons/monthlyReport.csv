@@ -1,0 +1,54 @@
+HomeGenie Partner Monthly Account Statement
+Country: UAE
+City: Dubai
+Partner: Rosgold Technical Works
+Supervisor: Carmi
+Year: 2018
+Month: July
+Category: ALL
+Total Estimate (incl. VAT),,Sum of A (with VAT),50810.19
+Total Invoiced Sales (incl. VAT),,Sum of E,24116.56
+Total Collection,,,6724.75
+,Collection by HG,Sum of G + H,0
+,Collection by Partner,Sum of F,6724.75
+Total Outstanding (to be collected by the Partner),,Sum of I,0
+Total HG Commission @15%,,15*(Sum of E)/100,843.72
+Other HG Charges,,,475
+,Number of Jobs,,19
+,Additional HG charges,5*(Number of jobs - 20),0
+,Monthly HG charges,(Number of jobs/20)*500,475
+Total Payment Due to Partner,,,16073.09
+,Income - Collection,Total Sales - Total HG Commission - Other HG Charges - Sum of F,16073.09
+,HG to Partner (from Promo)***,Sum of B,0
+,HG to Partner (Bonus)*,Sum of M,0
+Total Payment Due to HG,,,1318.72
+,Income - Collection,Total HG Comission + Other HG Charges - (G + H),1318.72
+,Partner To HG (Penalties****),Sum of L,0
+,Partner To HG (Refund**),Sum of J,0
+Final Settlement Amount (To be paid to Partner),,Total payment Due To Partner + Total Payment Due To HG,17391.81
+*To be collected by Genie from HG office
+** This VAT charge has been waived off by HG
+*** Includes any waiver on HG commission on special cases upon approval from HG CEO
+**** Upon non compliance to HG process or requirement e.g. no jacket reported by customer
+Sl.No.,JOB ID,Customer Name,Subcategory,Service Type,Genie Name,Job Status,Total Estimate (incl VAT),Discount (Promo),Total Sales,Vat @ 5%,Total Invoiced Sales(incl VAT),Cash Collection (Partner),Cash or Bank Transfer Collection (HG),Card Collection (HG),Outstanding,Refund,Rating,Penalty,Bonus,Comments
+Formulae,,,,,,,A,B,C,D = (5/100) * C,E = C + D,F,G,H,I = E - F - G - H,J,K,L,M,
+1,181006096,Jack,AC service,Fixed Price Service,Benito,RATING,799.99,0,761.9,38.09,799.99,799.99,0,0,0,0,,0,0,
+2,181006101,Fatima,Other custom job e.g. mirror fabrication,Survey Based Service,,CANCELLED,0,0,0,0,0,0,0,0,0,0,,0,0,client requested.
+3,181006118,Lloyd,Pipe drain or sewer unclogging,Inspection Based Service,Benito,RATING,787.5,0,750,37.5,787.5,787.5,0,0,0,0,,0,0,
+4,181006122,Onur Aydemir,Door or window painting,Fixed Price Service,Benito,IN_SERVICE,19822.95,0,0,0,0,0,0,0,0,0,,0,0,
+5,181006123,Luke,Wall paper fixing,Fixed Price Service,Benito,IN_SERVICE,937.13,0,0,0,0,0,0,0,0,0,,0,0,
+6,181006133,Prashant,Bulbs and lamps replacement,Fixed Price Service,Benito,RATING,157.5,0,855,42.75,897.75,897.75,0,0,0,0,,0,0,
+7,181006143,Bashir,Wall paper fixing,Fixed Price Service,Benito,IN_SERVICE,262.5,0,0,0,0,0,0,0,0,0,,0,0,
+8,181006153,Marta,Wall fixtures (paintings mirror etc.) hanging,Fixed Price Service,,CANCELLED,155.92,0,0,0,0,0,0,0,0,0,,0,0,
+9,181006155,Alla,LCD TV mounting,Fixed Price Service,Benito,IN_SERVICE,157.5,0,0,0,0,0,0,0,0,0,,0,0,
+10,181006161,Amit,AC cooling repair,Inspection Based Service,,CANCELLED,0,0,0,0,0,0,0,0,0,0,,0,0,
+11,181006165,Lloyd,AC service,Fixed Price Service,Benito,RATING,551.25,0,525,26.25,551.25,551.25,0,0,0,0,,0,0,
+12,181006183,Lucas Trigo,Furniture painting,Survey Based Service,Benito,RATING,5512.5,0,0,0,0,0,0,0,0,0,,0,0,
+13,181006187,Mr Maqsood,Water leakage repair,Inspection Based Service,Benito,EXPIRED,611.89,0,620.25,31.01,651.26,0,0,0,0,0,,0,0,
+14,181006192,Mr Maqsood,Other custom job e.g. LED installation,Survey Based Service,Benito,RATING,782.25,0,0,0,0,0,0,0,0,0,,0,0,
+15,181006197,Walid Amin,Pipe drain or sewer unclogging,Inspection Based Service,Dennis,RATING,921.38,0,1027.5,51.38,1078.88,1078.88,0,0,0,0,,0,0,
+16,181006198,Walid Amin,Power outlets and switches repair,Inspection Based Service,Benito,RATING,396.38,0,377.5,18.88,396.38,396.38,0,0,0,0,,0,0,
+17,181006207,Amit,AC cooling repair,Inspection Based Service,Randy,DELETED,2410.8,0,0,114.8,2410.8,1100,0,0,0,0,,0,0,
+18,181006212,Steve,Other custom  painting job e.g. lamps ,Survey Based Service,Benito,EXPIRED,15429.75,0,14695,734.75,15429.75,0,0,0,0,0,,0,0,
+19,181006216,Farah,AC cooling repair,Inspection Based Service,Benito,RATING,1113,0,1060,53,1113,1113,0,0,0,0,,0,0,
+,,Total,,,,,50810.19,0,20672.15,1148.41,24116.56,,0,0,0,0,,0,0,

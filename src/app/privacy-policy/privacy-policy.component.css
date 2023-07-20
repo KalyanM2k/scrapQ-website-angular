@@ -1,0 +1,15 @@
+.error-message {
+    color: red;
+    font-size: 14px;
+  }
+
+  .data{
+    padding-left: 42%;
+    padding-top: 3%;
+    font-size:xx-large;
+    color: rebeccapurple;
+  }
+
+  .content{
+    padding: 5%;
+  }
